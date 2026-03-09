@@ -1,5 +1,5 @@
 class Task:
-    def _init_ (self, id, title, description, status = "Waiting"):
+    def __init__ (self, id, title, description, status = "Waiting"):
         self.id = id
         self.title = title
         self.description = description
